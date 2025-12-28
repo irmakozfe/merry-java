@@ -1,0 +1,22 @@
+gifts = 3;
+HOHO gifts;
+
+MERRY (gifts > 2) {
+    HOHO 100;
+} JINGLE {
+    HOHO 0;
+}
+
+SLEIGH i FROM 1 TO 5 {
+    HOHO i;
+}
+
+total = gifts * 5;
+HOHO total;
+
+MERRY (total >= 15) {
+    HOHO 999;
+}
+
+HOHO "Merry Christmas to all from Irmak!";
+
